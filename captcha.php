@@ -21,8 +21,8 @@
 
 	// using a mixture of TTF fonts
 	$fonts = array();
-	$fonts[] = "Nonserif.ttf";
-	$fonts[] = "MixSerif.ttf";
+	$fonts[] = "fonts/Nonserif.ttf";
+	$fonts[] = "fonts/MixSerif.ttf";
 
 	// generate random text
 	$text = "";
