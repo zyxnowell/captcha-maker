@@ -29,7 +29,7 @@
     $possible = "abcdefghijklmnopqrstuvwxyz0123456789";
     $possibleLen = strlen($possible);
 
-    for($i=15; $i < 96; $i+=20 ){
+    for($i=15; $i < 96; $i+=20){
     	$randText = $possible[rand(0, $possibleLen - 1)];
         $text .= $randText;
         $textcolor = (rand() % 2) ? $textcolor1 : $textcolor2;
